@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: "jdbc:mysql://10.202.44.200:3322/test"
+    username: "pps1"
+    password: "pps"
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+  context-path: /spring-boot-demo
